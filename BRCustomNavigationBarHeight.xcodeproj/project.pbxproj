@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54440D30193C5F6800BC5A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D2F193C5F6800BC5A1E /* Foundation.framework */; };
+		54440D32193C5F6800BC5A1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D31193C5F6800BC5A1E /* CoreGraphics.framework */; };
+		54440D34193C5F6800BC5A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D33193C5F6800BC5A1E /* UIKit.framework */; };
+		54440D36193C5F6800BC5A1E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D35193C5F6800BC5A1E /* CoreData.framework */; };
+		54440D3C193C5F6800BC5A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54440D3A193C5F6800BC5A1E /* InfoPlist.strings */; };
+		54440D3E193C5F6800BC5A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D3D193C5F6800BC5A1E /* main.m */; };
+		54440D42193C5F6800BC5A1E /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D41193C5F6800BC5A1E /* BRAppDelegate.m */; };
+		54440D45193C5F6900BC5A1E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54440D43193C5F6900BC5A1E /* Main_iPhone.storyboard */; };
+		54440D48193C5F6900BC5A1E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54440D46193C5F6900BC5A1E /* Main_iPad.storyboard */; };
+		54440D4B193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54440D49193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld */; };
+		54440D4E193C5F6900BC5A1E /* BRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D4D193C5F6900BC5A1E /* BRMasterViewController.m */; };
+		54440D51193C5F6900BC5A1E /* BRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D50193C5F6900BC5A1E /* BRDetailViewController.m */; };
+		54440D53193C5F6900BC5A1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54440D52193C5F6900BC5A1E /* Images.xcassets */; };
+		54440D5A193C5F6900BC5A1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D59193C5F6900BC5A1E /* XCTest.framework */; };
+		54440D5B193C5F6900BC5A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D2F193C5F6800BC5A1E /* Foundation.framework */; };
+		54440D5C193C5F6900BC5A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D33193C5F6800BC5A1E /* UIKit.framework */; };
+		54440D5D193C5F6900BC5A1E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D35193C5F6800BC5A1E /* CoreData.framework */; };
+		54440D65193C5F6900BC5A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54440D63193C5F6900BC5A1E /* InfoPlist.strings */; };
+		54440D67193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54440D5E193C5F6900BC5A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54440D24193C5F6800BC5A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54440D2B193C5F6800BC5A1E;
+			remoteInfo = BRCustomNavigationBarHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54440D2C193C5F6800BC5A1E /* BRCustomNavigationBarHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRCustomNavigationBarHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54440D2F193C5F6800BC5A1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54440D31193C5F6800BC5A1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54440D33193C5F6800BC5A1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54440D35193C5F6800BC5A1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54440D39193C5F6800BC5A1E /* BRCustomNavigationBarHeight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRCustomNavigationBarHeight-Info.plist"; sourceTree = "<group>"; };
+		54440D3B193C5F6800BC5A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54440D3D193C5F6800BC5A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54440D3F193C5F6800BC5A1E /* BRCustomNavigationBarHeight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRCustomNavigationBarHeight-Prefix.pch"; sourceTree = "<group>"; };
+		54440D40193C5F6800BC5A1E /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		54440D41193C5F6800BC5A1E /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		54440D44193C5F6900BC5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		54440D47193C5F6900BC5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		54440D4A193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BRCustomNavigationBarHeight.xcdatamodel; sourceTree = "<group>"; };
+		54440D4C193C5F6900BC5A1E /* BRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMasterViewController.h; sourceTree = "<group>"; };
+		54440D4D193C5F6900BC5A1E /* BRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMasterViewController.m; sourceTree = "<group>"; };
+		54440D4F193C5F6900BC5A1E /* BRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRDetailViewController.h; sourceTree = "<group>"; };
+		54440D50193C5F6900BC5A1E /* BRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRDetailViewController.m; sourceTree = "<group>"; };
+		54440D52193C5F6900BC5A1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54440D58193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRCustomNavigationBarHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54440D59193C5F6900BC5A1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54440D62193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRCustomNavigationBarHeightTests-Info.plist"; sourceTree = "<group>"; };
+		54440D64193C5F6900BC5A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCustomNavigationBarHeightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54440D29193C5F6800BC5A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54440D32193C5F6800BC5A1E /* CoreGraphics.framework in Frameworks */,
+				54440D36193C5F6800BC5A1E /* CoreData.framework in Frameworks */,
+				54440D34193C5F6800BC5A1E /* UIKit.framework in Frameworks */,
+				54440D30193C5F6800BC5A1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54440D55193C5F6900BC5A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54440D5A193C5F6900BC5A1E /* XCTest.framework in Frameworks */,
+				54440D5D193C5F6900BC5A1E /* CoreData.framework in Frameworks */,
+				54440D5C193C5F6900BC5A1E /* UIKit.framework in Frameworks */,
+				54440D5B193C5F6900BC5A1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54440D23193C5F6800BC5A1E = {
+			isa = PBXGroup;
+			children = (
+				54440D37193C5F6800BC5A1E /* BRCustomNavigationBarHeight */,
+				54440D60193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests */,
+				54440D2E193C5F6800BC5A1E /* Frameworks */,
+				54440D2D193C5F6800BC5A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54440D2D193C5F6800BC5A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54440D2C193C5F6800BC5A1E /* BRCustomNavigationBarHeight.app */,
+				54440D58193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54440D2E193C5F6800BC5A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54440D2F193C5F6800BC5A1E /* Foundation.framework */,
+				54440D31193C5F6800BC5A1E /* CoreGraphics.framework */,
+				54440D33193C5F6800BC5A1E /* UIKit.framework */,
+				54440D35193C5F6800BC5A1E /* CoreData.framework */,
+				54440D59193C5F6900BC5A1E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54440D37193C5F6800BC5A1E /* BRCustomNavigationBarHeight */ = {
+			isa = PBXGroup;
+			children = (
+				54440D40193C5F6800BC5A1E /* BRAppDelegate.h */,
+				54440D41193C5F6800BC5A1E /* BRAppDelegate.m */,
+				54440D43193C5F6900BC5A1E /* Main_iPhone.storyboard */,
+				54440D46193C5F6900BC5A1E /* Main_iPad.storyboard */,
+				54440D4C193C5F6900BC5A1E /* BRMasterViewController.h */,
+				54440D4D193C5F6900BC5A1E /* BRMasterViewController.m */,
+				54440D4F193C5F6900BC5A1E /* BRDetailViewController.h */,
+				54440D50193C5F6900BC5A1E /* BRDetailViewController.m */,
+				54440D52193C5F6900BC5A1E /* Images.xcassets */,
+				54440D49193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld */,
+				54440D38193C5F6800BC5A1E /* Supporting Files */,
+			);
+			path = BRCustomNavigationBarHeight;
+			sourceTree = "<group>";
+		};
+		54440D38193C5F6800BC5A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54440D39193C5F6800BC5A1E /* BRCustomNavigationBarHeight-Info.plist */,
+				54440D3A193C5F6800BC5A1E /* InfoPlist.strings */,
+				54440D3D193C5F6800BC5A1E /* main.m */,
+				54440D3F193C5F6800BC5A1E /* BRCustomNavigationBarHeight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54440D60193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */,
+				54440D61193C5F6900BC5A1E /* Supporting Files */,
+			);
+			path = BRCustomNavigationBarHeightTests;
+			sourceTree = "<group>";
+		};
+		54440D61193C5F6900BC5A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54440D62193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests-Info.plist */,
+				54440D63193C5F6900BC5A1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54440D2B193C5F6800BC5A1E /* BRCustomNavigationBarHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54440D6A193C5F6900BC5A1E /* Build configuration list for PBXNativeTarget "BRCustomNavigationBarHeight" */;
+			buildPhases = (
+				54440D28193C5F6800BC5A1E /* Sources */,
+				54440D29193C5F6800BC5A1E /* Frameworks */,
+				54440D2A193C5F6800BC5A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRCustomNavigationBarHeight;
+			productName = BRCustomNavigationBarHeight;
+			productReference = 54440D2C193C5F6800BC5A1E /* BRCustomNavigationBarHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54440D57193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54440D6D193C5F6900BC5A1E /* Build configuration list for PBXNativeTarget "BRCustomNavigationBarHeightTests" */;
+			buildPhases = (
+				54440D54193C5F6900BC5A1E /* Sources */,
+				54440D55193C5F6900BC5A1E /* Frameworks */,
+				54440D56193C5F6900BC5A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54440D5F193C5F6900BC5A1E /* PBXTargetDependency */,
+			);
+			name = BRCustomNavigationBarHeightTests;
+			productName = BRCustomNavigationBarHeightTests;
+			productReference = 54440D58193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54440D24193C5F6800BC5A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bronron Apps";
+				TargetAttributes = {
+					54440D57193C5F6900BC5A1E = {
+						TestTargetID = 54440D2B193C5F6800BC5A1E;
+					};
+				};
+			};
+			buildConfigurationList = 54440D27193C5F6800BC5A1E /* Build configuration list for PBXProject "BRCustomNavigationBarHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54440D23193C5F6800BC5A1E;
+			productRefGroup = 54440D2D193C5F6800BC5A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54440D2B193C5F6800BC5A1E /* BRCustomNavigationBarHeight */,
+				54440D57193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54440D2A193C5F6800BC5A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54440D48193C5F6900BC5A1E /* Main_iPad.storyboard in Resources */,
+				54440D53193C5F6900BC5A1E /* Images.xcassets in Resources */,
+				54440D45193C5F6900BC5A1E /* Main_iPhone.storyboard in Resources */,
+				54440D3C193C5F6800BC5A1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54440D56193C5F6900BC5A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54440D65193C5F6900BC5A1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54440D28193C5F6800BC5A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54440D42193C5F6800BC5A1E /* BRAppDelegate.m in Sources */,
+				54440D4B193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld in Sources */,
+				54440D51193C5F6900BC5A1E /* BRDetailViewController.m in Sources */,
+				54440D4E193C5F6900BC5A1E /* BRMasterViewController.m in Sources */,
+				54440D3E193C5F6800BC5A1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54440D54193C5F6900BC5A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54440D67193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54440D5F193C5F6900BC5A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54440D2B193C5F6800BC5A1E /* BRCustomNavigationBarHeight */;
+			targetProxy = 54440D5E193C5F6900BC5A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54440D3A193C5F6800BC5A1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54440D3B193C5F6800BC5A1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54440D43193C5F6900BC5A1E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54440D44193C5F6900BC5A1E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		54440D46193C5F6900BC5A1E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54440D47193C5F6900BC5A1E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		54440D63193C5F6900BC5A1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54440D64193C5F6900BC5A1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54440D68193C5F6900BC5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54440D69193C5F6900BC5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54440D6B193C5F6900BC5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Prefix.pch";
+				INFOPLIST_FILE = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54440D6C193C5F6900BC5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Prefix.pch";
+				INFOPLIST_FILE = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54440D6E193C5F6900BC5A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BRCustomNavigationBarHeight.app/BRCustomNavigationBarHeight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BRCustomNavigationBarHeightTests/BRCustomNavigationBarHeightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		54440D6F193C5F6900BC5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BRCustomNavigationBarHeight.app/BRCustomNavigationBarHeight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Prefix.pch";
+				INFOPLIST_FILE = "BRCustomNavigationBarHeightTests/BRCustomNavigationBarHeightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54440D27193C5F6800BC5A1E /* Build configuration list for PBXProject "BRCustomNavigationBarHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54440D68193C5F6900BC5A1E /* Debug */,
+				54440D69193C5F6900BC5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54440D6A193C5F6900BC5A1E /* Build configuration list for PBXNativeTarget "BRCustomNavigationBarHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54440D6B193C5F6900BC5A1E /* Debug */,
+				54440D6C193C5F6900BC5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54440D6D193C5F6900BC5A1E /* Build configuration list for PBXNativeTarget "BRCustomNavigationBarHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54440D6E193C5F6900BC5A1E /* Debug */,
+				54440D6F193C5F6900BC5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54440D49193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54440D4A193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodel */,
+			);
+			currentVersion = 54440D4A193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodel */;
+			path = BRCustomNavigationBarHeight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54440D24193C5F6800BC5A1E /* Project object */;
+}

@@ -10,6 +10,8 @@
 
 #import "BRDetailViewController.h"
 
+#import "UINavigationBar+CustomHeight.h"
+
 @interface BRMasterViewController ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 @end
@@ -23,6 +25,8 @@
         self.preferredContentSize = CGSizeMake(320.0, 600.0);
     }
     [super awakeFromNib];
+    
+        [self.navigationController.navigationBar changeHeightAndColourOfBar];
 }
 
 - (void)viewDidLoad

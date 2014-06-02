@@ -15,7 +15,6 @@
 		54440D3E193C5F6800BC5A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D3D193C5F6800BC5A1E /* main.m */; };
 		54440D42193C5F6800BC5A1E /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D41193C5F6800BC5A1E /* BRAppDelegate.m */; };
 		54440D45193C5F6900BC5A1E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54440D43193C5F6900BC5A1E /* Main_iPhone.storyboard */; };
-		54440D48193C5F6900BC5A1E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54440D46193C5F6900BC5A1E /* Main_iPad.storyboard */; };
 		54440D4B193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54440D49193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodeld */; };
 		54440D4E193C5F6900BC5A1E /* BRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D4D193C5F6900BC5A1E /* BRMasterViewController.m */; };
 		54440D51193C5F6900BC5A1E /* BRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D50193C5F6900BC5A1E /* BRDetailViewController.m */; };
@@ -26,6 +25,7 @@
 		54440D5D193C5F6900BC5A1E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440D35193C5F6800BC5A1E /* CoreData.framework */; };
 		54440D65193C5F6900BC5A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54440D63193C5F6900BC5A1E /* InfoPlist.strings */; };
 		54440D67193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */; };
+		54440D73193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D72193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 		54440D40193C5F6800BC5A1E /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
 		54440D41193C5F6800BC5A1E /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
 		54440D44193C5F6900BC5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		54440D47193C5F6900BC5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		54440D4A193C5F6900BC5A1E /* BRCustomNavigationBarHeight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BRCustomNavigationBarHeight.xcdatamodel; sourceTree = "<group>"; };
 		54440D4C193C5F6900BC5A1E /* BRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMasterViewController.h; sourceTree = "<group>"; };
 		54440D4D193C5F6900BC5A1E /* BRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMasterViewController.m; sourceTree = "<group>"; };
@@ -63,6 +62,8 @@
 		54440D62193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRCustomNavigationBarHeightTests-Info.plist"; sourceTree = "<group>"; };
 		54440D64193C5F6900BC5A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCustomNavigationBarHeightTests.m; sourceTree = "<group>"; };
+		54440D71193C5F9200BC5A1E /* UINavigationBar+CustomHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomHeight.h"; sourceTree = "<group>"; };
+		54440D72193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomHeight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +126,10 @@
 		54440D37193C5F6800BC5A1E /* BRCustomNavigationBarHeight */ = {
 			isa = PBXGroup;
 			children = (
+				54440D70193C5F7A00BC5A1E /* BrCustomNavigationBarHeight */,
 				54440D40193C5F6800BC5A1E /* BRAppDelegate.h */,
 				54440D41193C5F6800BC5A1E /* BRAppDelegate.m */,
 				54440D43193C5F6900BC5A1E /* Main_iPhone.storyboard */,
-				54440D46193C5F6900BC5A1E /* Main_iPad.storyboard */,
 				54440D4C193C5F6900BC5A1E /* BRMasterViewController.h */,
 				54440D4D193C5F6900BC5A1E /* BRMasterViewController.m */,
 				54440D4F193C5F6900BC5A1E /* BRDetailViewController.h */,
@@ -167,6 +168,15 @@
 				54440D63193C5F6900BC5A1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54440D70193C5F7A00BC5A1E /* BrCustomNavigationBarHeight */ = {
+			isa = PBXGroup;
+			children = (
+				54440D71193C5F9200BC5A1E /* UINavigationBar+CustomHeight.h */,
+				54440D72193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m */,
+			);
+			name = BrCustomNavigationBarHeight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54440D48193C5F6900BC5A1E /* Main_iPad.storyboard in Resources */,
 				54440D53193C5F6900BC5A1E /* Images.xcassets in Resources */,
 				54440D45193C5F6900BC5A1E /* Main_iPhone.storyboard in Resources */,
 				54440D3C193C5F6800BC5A1E /* InfoPlist.strings in Resources */,
@@ -273,6 +282,7 @@
 				54440D51193C5F6900BC5A1E /* BRDetailViewController.m in Sources */,
 				54440D4E193C5F6900BC5A1E /* BRMasterViewController.m in Sources */,
 				54440D3E193C5F6800BC5A1E /* main.m in Sources */,
+				54440D73193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +319,6 @@
 				54440D44193C5F6900BC5A1E /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		54440D46193C5F6900BC5A1E /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54440D47193C5F6900BC5A1E /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		54440D63193C5F6900BC5A1E /* InfoPlist.strings */ = {
@@ -411,6 +413,7 @@
 				GCC_PREFIX_HEADER = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Prefix.pch";
 				INFOPLIST_FILE = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,6 +427,7 @@
 				GCC_PREFIX_HEADER = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Prefix.pch";
 				INFOPLIST_FILE = "BRCustomNavigationBarHeight/BRCustomNavigationBarHeight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -26,6 +26,7 @@
 		54440D65193C5F6900BC5A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54440D63193C5F6900BC5A1E /* InfoPlist.strings */; };
 		54440D67193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */; };
 		54440D73193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 54440D72193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m */; };
+		54440D75193C6B6E00BC5A1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 54440D74193C6B6E00BC5A1E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		54440D66193C5F6900BC5A1E /* BRCustomNavigationBarHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCustomNavigationBarHeightTests.m; sourceTree = "<group>"; };
 		54440D71193C5F9200BC5A1E /* UINavigationBar+CustomHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CustomHeight.h"; sourceTree = "<group>"; };
 		54440D72193C5F9200BC5A1E /* UINavigationBar+CustomHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CustomHeight.m"; sourceTree = "<group>"; };
+		54440D74193C6B6E00BC5A1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		54440D38193C5F6800BC5A1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54440D74193C6B6E00BC5A1E /* README.md */,
 				54440D39193C5F6800BC5A1E /* BRCustomNavigationBarHeight-Info.plist */,
 				54440D3A193C5F6800BC5A1E /* InfoPlist.strings */,
 				54440D3D193C5F6800BC5A1E /* main.m */,
@@ -258,6 +261,7 @@
 			files = (
 				54440D53193C5F6900BC5A1E /* Images.xcassets in Resources */,
 				54440D45193C5F6900BC5A1E /* Main_iPhone.storyboard in Resources */,
+				54440D75193C6B6E00BC5A1E /* README.md in Resources */,
 				54440D3C193C5F6800BC5A1E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

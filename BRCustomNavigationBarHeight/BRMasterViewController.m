@@ -26,7 +26,7 @@
     }
     [super awakeFromNib];
     
-        [self.navigationController.navigationBar changeHeightAndColourOfBar];
+    [self.navigationController.navigationBar changeHeightAndColourOfBar];
 }
 
 - (void)viewDidLoad
